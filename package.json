@@ -1,0 +1,32 @@
+{
+    "name": "myyrakle@boom",
+    "version": "0.1.0",
+    "description": "cli",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/myyrakle/nest-boom.git"
+    },
+    "keywords": [
+        "test"
+    ],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/myyrakle/npm-test/issues"
+    },
+    "homepage": "https://github.com/myyrakle/nest-test#readme",
+    "dependencies": {
+        "@angular-devkit/core": "^11.2.12",
+        "@nestjs/mapped-types": "*",
+        "chalk": "^4.1.1",
+        "ejs": "^3.1.6",
+        "fs-extra": "^10.0.0",
+        "pluralize": "^8.0.0"
+    },
+    "bin": {
+        "nest-boom": "./src/index.js"
+    }
+}
